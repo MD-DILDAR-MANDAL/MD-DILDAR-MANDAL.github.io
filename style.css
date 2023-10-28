@@ -19,3 +19,18 @@
     --h2-font: 2.9rem;
     --p-font: 1rem;
 }
+
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+header{
+    positon: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
