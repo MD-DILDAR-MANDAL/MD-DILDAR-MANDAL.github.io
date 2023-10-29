@@ -1,0 +1,24 @@
+{
+  "name": "md-dildar-mandal.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitlint": "commitlint --edit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MD-DILDAR-MANDAL/MD-DILDAR-MANDAL.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MD-DILDAR-MANDAL/MD-DILDAR-MANDAL.github.io/issues"
+  },
+  "homepage": "https://github.com/MD-DILDAR-MANDAL/MD-DILDAR-MANDAL.github.io#readme",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
+}
