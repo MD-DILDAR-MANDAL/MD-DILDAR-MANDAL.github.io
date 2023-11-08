@@ -299,3 +299,69 @@ header.sticky{
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
 }
+
+.portfolio{
+    background: var(--second-bg-color);
+}
+
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.2rem;
+}
+
+.row img{
+    height: auto;
+    width: 80%;
+    border-radius: 28px ;
+    margin-bottom: 1.4rem;
+}
+
+.row{
+    background: #2d343f;
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all .50s ease;
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.row h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--other-color);
+}
+
+.row i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: var(--text-color);
+    background: #075fe0;
+}
+
+.row h4{
+    fontsize: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.row:hover{
+    border:1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+    cursor: pointer;
+}
