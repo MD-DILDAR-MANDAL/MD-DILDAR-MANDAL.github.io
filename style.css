@@ -441,3 +441,21 @@ form .send-btn:hover{
     color: var(--text-color);
     font-size: 27px;
 }
+
+@media (max-width: 1700px){
+    header{
+        padding: 20px  8%;
+    }
+    header.sticky{
+        padding: 14px 8%;
+    }
+    section{
+        paddinng: 90px 8% 80px;
+    }
+    .footer{
+        padding: 18px 8%;
+    }
+    .logo{
+        font-size: 28px;
+    }
+}
