@@ -414,3 +414,30 @@ form .send-btn:hover{
     box-shadow: 0 0 20px var(--main-color);
     cursor: pointer;
 }
+
+.footer{
+    padding: 22px;
+    background: var(--second-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.copyright p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--other-color);
+}
+
+.scroll-top i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #075fe4;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: var(--text-color);
+    font-size: 27px;
+}
