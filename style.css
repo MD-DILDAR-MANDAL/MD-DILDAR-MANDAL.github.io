@@ -256,7 +256,7 @@ header.sticky{
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     transition: all .50s ease;
-    cursor: ponter;
+    cursor: pointer;
 }
 
 .box img{
@@ -354,7 +354,7 @@ header.sticky{
 }
 
 .row h4{
-    fontsize: 25px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
     line-height: 1.4;
@@ -450,7 +450,7 @@ form .send-btn:hover{
         padding: 14px 8%;
     }
     section{
-        paddinng: 90px 8% 80px;
+        padding: 90px 8% 80px;
     }
     .footer{
         padding: 18px 8%;
