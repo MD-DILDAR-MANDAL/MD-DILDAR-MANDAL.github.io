@@ -283,24 +283,22 @@ header.sticky{
     border: 1px solid transparent;
     box-shadow: 0 0 5px var(--main-color);
     transition: all .50s ease;
-    cursor: pointer;
-}
-
-.box img{
-    margin-bottom: 20px;
 }
 .box h3{
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
 }
-.box p{
-    font-size: var(--p-font);
-    font-weight: 400;
+
+.box ul,p{
+    font-size:20px;
+    font-weight: 600;
     color: var(--other-color);
     line-height: 30px;
-    margin-bottom: 20px;
-    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    margin-right: 20px;
 }
 .box a{
     display: inline-block;
@@ -313,10 +311,14 @@ header.sticky{
     transition: all .50s ease;
 }
 .box i{
-    vertical-align: middle;
-    font-size: 25px;
+    font-size: 35px;
     color: var(--main-color);
-    margin-left: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.box div{
+    display: flex;
+    margin-left: 5%;
 }
 
 .box a:hover{
@@ -325,7 +327,7 @@ header.sticky{
 
 .box:hover{
     border: 1px solid var(--main-color);
-    transform: translateY(-5px) scale(1.03);
+    transform: translateY(-5px) scale(1.01);
 }
 
 .portfolio{
