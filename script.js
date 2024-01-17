@@ -5,3 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
         head.classList.toggle ("sticky", window.scrollY >20);
     });
 });
+
+
+    document.getElementById("conForm").reset();
