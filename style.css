@@ -331,6 +331,10 @@ header.sticky{
     transform: translateY(-5px) scale(1.01);
 }
 
+.sub{
+    font-size: 15px;
+}
+
 .contact-form{
     display: flex;
     align-items: center;
